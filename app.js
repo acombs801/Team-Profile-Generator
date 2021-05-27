@@ -13,7 +13,7 @@ let finalTeamArray = [];
 function startingPrompt() {
     inquirer.prompt([
         {
-            message: "/////////Welcome to Team Generator 5000! Please write your team name://///////",
+            message: "/////////Welcome to the Node Team Generator! Please enter the name of your team://///////",
             name: "teamname"
         }
     ])
@@ -29,17 +29,17 @@ function startingPrompt() {
 function addManager() {
     inquirer.prompt([
         {
-            message: "What is your team manager's name?",
+            message: "What is the team manager's name?",
             name: "name"
         },
         {
-            message: "What is your team manager's email address?",
+            message: "What is the team manager's email address?",
             name: "email"
         },
 
         {
             type: "number",
-            message: "What is your team manager's office number?",
+            message: "What is the team manager's office number?",
             name: "officeNumber"
         },
     ])
@@ -86,15 +86,15 @@ function addTeamMembers() {
 function addEngineer() {
     inquirer.prompt([
         {
-            message: "What is this engineer's name?",
+            message: "What is the engineer's name?",
             name: "name"
         },
         {
-            message: "What is this engineer's email address?",
+            message: "What is the engineer's email address?",
             name: "email"
         },
         {
-            message: "What is this engineer's Github profile?",
+            message: "What is the engineer's Github?",
             name: "github"
         }
     ])
@@ -114,15 +114,15 @@ function addEngineer() {
 function addIntern() {
     inquirer.prompt([
         {
-            message: "What is this intern's name?",
+            message: "What is the intern's name?",
             name: "name"
         },
         {
-            message: "What is this intern's email address?",
+            message: "What is the intern's email address?",
             name: "email"
         },
         {
-            message: "What is this intern's school?",
+            message: "What is the intern's school?",
             name: "school"
         }
     ])
@@ -140,7 +140,7 @@ function addIntern() {
 };
 
 function compileTeam() {
-    console.log("//////////You've done it!!! Now give your team a raise.////////")
+    console.log("//////////All Done!! Now go make that money!.////////")
 
     const htmlArray = []
     const htmlBeginning = `
