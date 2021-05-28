@@ -17,8 +17,8 @@
 > ## *Usage*
     This app is used within command console.
 > ## *Contributers*
-    
+    https://github.com/acombs801
 > ## *Tests*
-    
+    https://gfycat.com/giantbarrendaddylonglegs
 > ## *Questions or Concerns*
-    
+    https://github.com/acombs801/Team-Profile-Generator/issues
